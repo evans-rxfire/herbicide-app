@@ -859,6 +859,10 @@ const groupMap = {
     "whitebrush": "groupC"
 };
 
+
+const outputHeader = document.getElementById("output-header");
+
+
 plantSelect.addEventListener("change", () => {
     const selected = plantSelect.value;
     const groupKey = groupMap[selected];
@@ -872,5 +876,12 @@ plantSelect.addEventListener("change", () => {
         opt.textContent = type;
         applicationType.appendChild(opt);
     });
+});
+
+
+getRecommendationBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    outputHeader.textContent = "Recommendation engine under construction";
 });
 
