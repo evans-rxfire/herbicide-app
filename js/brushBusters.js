@@ -860,7 +860,7 @@ const groupMap = {
 };
 
 
-const outputHeader = document.getElementById("output-header");
+const outputMessage = document.getElementById("output-message");
 
 
 plantSelect.addEventListener("change", () => {
@@ -882,6 +882,6 @@ plantSelect.addEventListener("change", () => {
 getRecommendationBtn.addEventListener("click", (e) => {
     e.preventDefault();
 
-    outputHeader.textContent = "Recommendation engine under construction";
+    outputMessage.textContent = "Recommendation engine under construction";
 });
 
