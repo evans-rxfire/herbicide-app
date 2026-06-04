@@ -30,3 +30,75 @@ What needs to be displayed in the output for the *Brush Busters* page:
             - 25 gal
     
 
+{
+    plantName: [],
+    herbicides: [
+        {
+            herbicideName: "",
+            herbicideQuantity: {
+                broadcast: {
+                    contolRating: "",
+                    rate: ""
+                }, 
+                IPT: {
+                    contolRating: "",
+                    rate: ""
+                }
+            },
+            sprayVolume: "",
+            timing: "",
+            remarks: ""
+        },
+
+        {
+            herbicideName: "",
+            herbicideQuantity: {
+                broadcast: {
+                    contolRating: "",
+                    rate: ""
+                }, 
+                IPT: {
+                    contolRating: "",
+                    rate: ""
+                }
+            },
+            sprayVolume: "",
+            timing: "",
+            remarks: ""
+        },
+
+        {
+            herbicideName: "",
+            herbicideQuantity: {
+                broadcast: {
+                    contolRating: "",
+                    rate: ""
+                }, 
+                IPT: {
+                    contolRating: "",
+                    rate: ""
+                }
+            },
+            sprayVolume: "",
+            timing: "",
+            remarks: ""
+        },
+
+        {
+            herbicideName: "",
+            herbicideQuantity: {
+                broadcast: {
+                    contolRating: "",
+                    rate: ""
+                }, 
+                IPT: {
+                    contolRating: "",
+                    rate: ""
+                }
+            },
+            sprayVolume: "",
+            timing: "",
+            remarks: ""
+        },
+    ]
+}, 
