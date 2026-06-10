@@ -300,6 +300,475 @@ const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
+                        contolRating: "VH",
+                        rate: "16-32oz (0.5-1lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds 4-6in. high, good moisture conditions. Spray thistles in rosette stage.",
+                remarks: "With 2,4-D, use the amine formulation in areas with 25in. of rainfall or more and the ester formulation in drier areas where no susceptible crops are nearby. For western bitterweed control, use 2,4-D low volatile ester or amine at 32oz/ac before plants flower, temperature above 72° F, and soil moisture favors plant growth. When 3/4 of plants are blooming, and/or temperature is less than 60°F, use dicamba:2,4-D (1:3), 2,4-D plus dicamba; picloram:2,4-D (1:4), (3.8lb/gal product), picloram:2,4-D (1:4), (2.5lb/gal product), aminopyralid:2,4-D (1:8) or 2,4-D plus picloram. For prairie gerardia control, use 48 oz/acre of 2,4-D or the low rate of dicamba:2,4-D (1:3), dicamba plus 2,4-D; picloram:2,4-D (1:4), (3.8lb/gal product), picloram:2,4-D (1:4), (2.5lb/gal product) or picloram plus 2,4-D when plants are 4-6in. high.Use 20 oz/acre of picloram:2,4-D (1:4), (3.8lb/gal product; Do not apply more than 80oz/acre per year), 32oz/acre of picloram:2,4-D (1:4), (2.5lb/gal product) or 8 oz of 2,4-D/acre when plants are 6-10 in. high before flowering."
+            },
+
+            {
+                herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine of low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds 4-6in. high, good moisture conditions. Spray thistles in rosette stage.",
+                remarks: "With 2,4-D, use the amine formulation in areas with 25in. of rainfall or more and the ester formulation in drier areas where no susceptible crops are nearby. For western bitterweed control, use 2,4-D low volatile ester or amine at 32oz/ac before plants flower, temperature above 72° F, and soil moisture favors plant growth. When 3/4 of plants are blooming, and/or temperature is less than 60°F, use dicamba:2,4-D (1:3), 2,4-D plus dicamba; picloram:2,4-D (1:4), (3.8lb/gal product), picloram:2,4-D (1:4), (2.5lb/gal product), aminopyralid:2,4-D (1:8) or 2,4-D plus picloram. For prairie gerardia control, use 48 oz/acre of 2,4-D or the low rate of dicamba:2,4-D (1:3), dicamba plus 2,4-D; picloram:2,4-D (1:4), (3.8lb/gal product), picloram:2,4-D (1:4), (2.5lb/gal product) or picloram plus 2,4-D when plants are 4-6in. high.Use 20 oz/acre of picloram:2,4-D (1:4), (3.8lb/gal product; Do not apply more than 80oz/acre per year), 32oz/acre of picloram:2,4-D (1:4), (2.5lb/gal product) or 8 oz of 2,4-D/acre when plants are 6-10 in. high before flowering."
+            },
+
+            {
+                herbicideName: "dicamba + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "4-8oz (0.125-0.75lb) dicamba + 12-24oz (0.375-0.75lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.25% dicamba + 0.75% 2,4-D (4lb/gal product"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds 4-6in. high, good moisture conditions. Spray thistles in rosette stage.",
+                remarks: "With 2,4-D, use the amine formulation in areas with 25in. of rainfall or more and the ester formulation in drier areas where no susceptible crops are nearby. For western bitterweed control, use 2,4-D low volatile ester or amine at 32oz/ac before plants flower, temperature above 72° F, and soil moisture favors plant growth. When 3/4 of plants are blooming, and/or temperature is less than 60°F, use dicamba:2,4-D (1:3), 2,4-D plus dicamba; picloram:2,4-D (1:4), (3.8lb/gal product), picloram:2,4-D (1:4), (2.5lb/gal product), aminopyralid:2,4-D (1:8) or 2,4-D plus picloram. For prairie gerardia control, use 48 oz/acre of 2,4-D or the low rate of dicamba:2,4-D (1:3), dicamba plus 2,4-D; picloram:2,4-D (1:4), (3.8lb/gal product), picloram:2,4-D (1:4), (2.5lb/gal product) or picloram plus 2,4-D when plants are 4-6in. high.Use 20 oz/acre of picloram:2,4-D (1:4), (3.8lb/gal product; Do not apply more than 80oz/acre per year), 32oz/acre of picloram:2,4-D (1:4), (2.5lb/gal product) or 8 oz of 2,4-D/acre when plants are 6-10 in. high before flowering."
+            },
+
+            {
+                herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "11-16oz (0.3-0.5lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.63%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds 4-6in. high, good moisture conditions. Spray thistles in rosette stage.",
+                remarks: "With 2,4-D, use the amine formulation in areas with 25in. of rainfall or more and the ester formulation in drier areas where no susceptible crops are nearby. For western bitterweed control, use 2,4-D low volatile ester or amine at 32oz/ac before plants flower, temperature above 72° F, and soil moisture favors plant growth. When 3/4 of plants are blooming, and/or temperature is less than 60°F, use dicamba:2,4-D (1:3), 2,4-D plus dicamba; picloram:2,4-D (1:4), (3.8lb/gal product), picloram:2,4-D (1:4), (2.5lb/gal product), aminopyralid:2,4-D (1:8) or 2,4-D plus picloram. For prairie gerardia control, use 48 oz/acre of 2,4-D or the low rate of dicamba:2,4-D (1:3), dicamba plus 2,4-D; picloram:2,4-D (1:4), (3.8lb/gal product), picloram:2,4-D (1:4), (2.5lb/gal product) or picloram plus 2,4-D when plants are 4-6in. high.Use 20 oz/acre of picloram:2,4-D (1:4), (3.8lb/gal product; Do not apply more than 80oz/acre per year), 32oz/acre of picloram:2,4-D (1:4), (2.5lb/gal product) or 8 oz of 2,4-D/acre when plants are 6-10 in. high before flowering."
+            },
+
+            {
+                herbicideName: "picloram:2,4-D (1:4) (2.5lb/gal product",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "16-24oz (0.3-0.5lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds 4-6in. high, good moisture conditions. Spray thistles in rosette stage.",
+                remarks: "With 2,4-D, use the amine formulation in areas with 25in. of rainfall or more and the ester formulation in drier areas where no susceptible crops are nearby. For western bitterweed control, use 2,4-D low volatile ester or amine at 32oz/ac before plants flower, temperature above 72° F, and soil moisture favors plant growth. When 3/4 of plants are blooming, and/or temperature is less than 60°F, use dicamba:2,4-D (1:3), 2,4-D plus dicamba; picloram:2,4-D (1:4), (3.8lb/gal product), picloram:2,4-D (1:4), (2.5lb/gal product), aminopyralid:2,4-D (1:8) or 2,4-D plus picloram. For prairie gerardia control, use 48 oz/acre of 2,4-D or the low rate of dicamba:2,4-D (1:3), dicamba plus 2,4-D; picloram:2,4-D (1:4), (3.8lb/gal product), picloram:2,4-D (1:4), (2.5lb/gal product) or picloram plus 2,4-D when plants are 4-6in. high.Use 20 oz/acre of picloram:2,4-D (1:4), (3.8lb/gal product; Do not apply more than 80oz/acre per year), 32oz/acre of picloram:2,4-D (1:4), (2.5lb/gal product) or 8 oz of 2,4-D/acre when plants are 6-10 in. high before flowering."
+            },
+
+            {
+                herbicideName: "picloram + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "8-24oz (0.0625-0.1875lb) picloram + 8-24oz (0.25-0.75lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds 4-6in. high, good moisture conditions. Spray thistles in rosette stage.",
+                remarks: "With 2,4-D, use the amine formulation in areas with 25in. of rainfall or more and the ester formulation in drier areas where no susceptible crops are nearby. For western bitterweed control, use 2,4-D low volatile ester or amine at 32oz/ac before plants flower, temperature above 72° F, and soil moisture favors plant growth. When 3/4 of plants are blooming, and/or temperature is less than 60°F, use dicamba:2,4-D (1:3), 2,4-D plus dicamba; picloram:2,4-D (1:4), (3.8lb/gal product), picloram:2,4-D (1:4), (2.5lb/gal product), aminopyralid:2,4-D (1:8) or 2,4-D plus picloram. For prairie gerardia control, use 48 oz/acre of 2,4-D or the low rate of dicamba:2,4-D (1:3), dicamba plus 2,4-D; picloram:2,4-D (1:4), (3.8lb/gal product), picloram:2,4-D (1:4), (2.5lb/gal product) or picloram plus 2,4-D when plants are 4-6in. high.Use 20 oz/acre of picloram:2,4-D (1:4), (3.8lb/gal product; Do not apply more than 80oz/acre per year), 32oz/acre of picloram:2,4-D (1:4), (2.5lb/gal product) or 8 oz of 2,4-D/acre when plants are 6-10 in. high before flowering."
+            },
+
+            {
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "Rate 1-Rate 2"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds 4-6in. high, good moisture conditions. Spray thistles in rosette stage.",
+                remarks: "Becasue of metsulfuron methyl in the formulation, there herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram:furoxypyr (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "24-32oz (0.25-0.33lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds 4-6in. high, good moisture conditions. Spray thistles in rosette stage.",
+                remarks: "Use high end rate range for camphorweed, marshelder, and smartweed."
+            },
+
+            {
+                herbicideName: "triclopyr:fluroxypyr (3:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "H",
+                        rate: "16-24oz (0.5-0.75lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.5%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds 4-6in. high, good moisture conditions. Spray thistles in rosette stage.",
+                remarks: "Use high end of rate range for camphorweed, marshelder, and smartweed. Triclopyr:fluroxypyr (3:1) efficacy on smartweed is marginal."
+            },
+
+            {
+                herbicideName: "aminopyralid:2,4-D (1:8)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "24oz (0.70lb)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds 4-6in. high, good moisture conditions. Spray thistles in rosette stage.",
+                remarks: null
+            },
+
+            {
+                herbicideName: "aminopyralid:metsulfuron methyl (1:6.2)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "2.0-3.3oz (0.078-0.127lb)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds 4-6in. high, good moisture conditions. Spray thistles in rosette stage.",
+                remarks: "Becasue of metsulfuron methyl in the formulation, there herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+        ]
+    }, 
+
+    {
+        plantName: ["Broomweed (annual or common)", "plantain (tallowweed)", "wild carrot"],
+        herbicides: [
+            {
+                herbicideName: "2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "16-32oz (0.5-1lb) 4lb/gal product"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1% (4lb/gal product"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Use 2,4-D amine in areas with 25 in. of rainfall or more. Use 2,4-D low volatile ester in drier areas where no susceptible crops are nearby. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "aminppyralid:2,4-D (1:8)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "24oz (0.70lb)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Use 2,4-D amine in areas with 25 in. of rainfall or more. Use 2,4-D low volatile ester in drier areas where no susceptible crops are nearby. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "aminpyralid:metsulfuron methyl (1:6.2)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "2.0-3.3oz (0.078-0.127lb)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Use 2,4-D amine in areas with 25 in. of rainfall or more. Use 2,4-D low volatile ester in drier areas where no susceptible crops are nearby. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "dicamba:2.4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "16-32oz (0.5-1lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Use 2,4-D amine in areas with 25 in. of rainfall or more. Use 2,4-D low volatile ester in drier areas where no susceptible crops are nearby. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Use 2,4-D amine in areas with 25 in. of rainfall or more. Use 2,4-D low volatile ester in drier areas where no susceptible crops are nearby. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "dicamba + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "4-8oz (0.125-0.25lb) dicamba + 12-24oz (0.375-0.75lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.25% dicamba + 0.75% 2,4-D (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Use 2,4-D amine in areas with 25 in. of rainfall or more. Use 2,4-D low volatile ester in drier areas where no susceptible crops are nearby. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "11-16oz (0.3-0.5lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.63%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Use 2,4-D amine in areas with 25 in. of rainfall or more. Use 2,4-D low volatile ester in drier areas where no susceptible crops are nearby. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "16-24oz (0.3-0.5lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Use 2,4-D amine in areas with 25 in. of rainfall or more. Use 2,4-D low volatile ester in drier areas where no susceptible crops are nearby. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "picloram + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "8-24oz (0.0625-0.1875lb) picloram + 8-24oz (0.25-0.75lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Use 2,4-D amine in areas with 25 in. of rainfall or more. Use 2,4-D low volatile ester in drier areas where no susceptible crops are nearby. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "picloram:fluroxypr (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "24-32oz (0.25-0.33lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Use 2,4-D amine in areas with 25 in. of rainfall or more. Use 2,4-D low volatile ester in drier areas where no susceptible crops are nearby. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "triclopyr:fluroxypyr (3:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "H",
+                        rate: "16-24oz (0.5-0.75lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.5%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Use 2,4-D amine in areas with 25 in. of rainfall or more. Use 2,4-D low volatile ester in drier areas where no susceptible crops are nearby. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "Rate 1 - Rate 2"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Becasue of metsulfuron methyl in the formulation, there herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron methyl",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "0.1oz"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Becasue of metsulfuron methyl in the formulation, there herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron:chlorosulfuron (3:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "0.125oz"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Becasue of metsulfuron methyl in the formulation, there herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron:chlorosulfuron (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "0.2oz"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, weeds less than 4in. tall, good moisture conditions.",
+                remarks: "Becasue of metsulfuron methyl in the formulation, there herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+        ]
+    }, 
+
+    {
+        plantName: ["Broom snakeweed (perennial broomweed)"],
+        herbicides: [
+            {
+                herbicideName: "picloram",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "16-32oz (0.25-0.5lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.5%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "During and after full flower stage in fall when growth conditions are good; or spring during peak plant growth when growth conditions are good.",
+                remarks: "Use 16 oz/ac picloram only in the fall. Use 32oz/ac picloram in the spring. Poor control may be expected if dicamba:2,4-D (1:3) or dicamba:2,4-D mixture is used when growth conditions are less than ideal. Growth conditions should be optimum if picloram:2,4-D (1:4) or picloram:2,4-D mixture is used in the spring. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
                         contolRating: "",
                         rate: ""
                     }, 
@@ -312,6 +781,108 @@ const weedControl = [
                 timing: "",
                 remarks: ""
             },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }, 
 
             {
                 herbicideName: "",
@@ -396,7 +967,7 @@ const weedControl = [
                 sprayVolume: "",
                 timing: "",
                 remarks: ""
-            },
+            }
         ]
     }, 
 
@@ -470,6 +1041,74 @@ const weedControl = [
                 timing: "",
                 remarks: ""
             },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
         ]
     }, 
 
@@ -543,6 +1182,74 @@ const weedControl = [
                 timing: "",
                 remarks: ""
             },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
         ]
     }, 
 
@@ -616,6 +1323,1202 @@ const weedControl = [
                 timing: "",
                 remarks: ""
             },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
+        ]
+    }, 
+
+    {
+        plantName: [],
+        herbicides: [
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
+        ]
+    }, 
+
+    {
+        plantName: [],
+        herbicides: [
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
+        ]
+    }, 
+
+    {
+        plantName: [],
+        herbicides: [
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
+        ]
+    }, 
+
+    {
+        plantName: [],
+        herbicides: [
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
+        ]
+    }, 
+
+    {
+        plantName: [],
+        herbicides: [
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
+        ]
+    }, 
+
+    {
+        plantName: [],
+        herbicides: [
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
+        ]
+    }, 
+
+    {
+        plantName: [],
+        herbicides: [
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
+        ]
+    }, 
+
+    {
+        plantName: [],
+        herbicides: [
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
         ]
     }, 
 
