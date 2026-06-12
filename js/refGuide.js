@@ -769,6 +769,390 @@ const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
+                        contolRating: "VH",
+                        rate: "43oz (1.25lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.63%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "During and after full flower stage in fall when growth conditions are good; or spring during peak plant growth when growth conditions are good.",
+                remarks: "Use 16 oz/ac picloram only in the fall. Use 32oz/ac picloram in the spring. Poor control may be expected if dicamba:2,4-D (1:3) or dicamba:2,4-D mixture is used when growth conditions are less than ideal. Growth conditions should be optimum if picloram:2,4-D (1:4) or picloram:2,4-D mixture is used in the spring. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "picloram:2,4-D (1:4) (2.5lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "64oz (1.25lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "During and after full flower stage in fall when growth conditions are good; or spring during peak plant growth when growth conditions are good.",
+                remarks: "Use 16 oz/ac picloram only in the fall. Use 32oz/ac picloram in the spring. Poor control may be expected if dicamba:2,4-D (1:3) or dicamba:2,4-D mixture is used when growth conditions are less than ideal. Growth conditions should be optimum if picloram:2,4-D (1:4) or picloram:2,4-D mixture is used in the spring. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "picloram:fluroxypyr (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "48-96oz (0.5-1.0lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "During and after full flower stage in fall when growth conditions are good; or spring during peak plant growth when growth conditions are good.",
+                remarks: "Use 16 oz/ac picloram only in the fall. Use 32oz/ac picloram in the spring. Poor control may be expected if dicamba:2,4-D (1:3) or dicamba:2,4-D mixture is used when growth conditions are less than ideal. Growth conditions should be optimum if picloram:2,4-D (1:4) or picloram:2,4-D mixture is used in the spring. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "picloram + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "16oz (0.25lb) picloram + 16-32oz (0.5-1.0lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "During and after full flower stage in fall when growth conditions are good; or spring during peak plant growth when growth conditions are good.",
+                remarks: "Use 16 oz/ac picloram only in the fall. Use 32oz/ac picloram in the spring. Poor control may be expected if dicamba:2,4-D (1:3) or dicamba:2,4-D mixture is used when growth conditions are less than ideal. Growth conditions should be optimum if picloram:2,4-D (1:4) or picloram:2,4-D mixture is used in the spring. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "dicamba:2,4-D (1:1.3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "32oz (1lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "During and after full flower stage in fall when growth conditions are good; or spring during peak plant growth when growth conditions are good.",
+                remarks: "Use 16 oz/ac picloram only in the fall. Use 32oz/ac picloram in the spring. Poor control may be expected if dicamba:2,4-D (1:3) or dicamba:2,4-D mixture is used when growth conditions are less than ideal. Growth conditions should be optimum if picloram:2,4-D (1:4) or picloram:2,4-D mixture is used in the spring. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1.0lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "During and after full flower stage in fall when growth conditions are good; or spring during peak plant growth when growth conditions are good.",
+                remarks: "Use 16 oz/ac picloram only in the fall. Use 32oz/ac picloram in the spring. Poor control may be expected if dicamba:2,4-D (1:3) or dicamba:2,4-D mixture is used when growth conditions are less than ideal. Growth conditions should be optimum if picloram:2,4-D (1:4) or picloram:2,4-D mixture is used in the spring. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "dicamba + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "8oz (0.25lb) dicamba + 24oz (0.75lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.25% dicamba + 0.75% 2,4-D (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "During and after full flower stage in fall when growth conditions are good; or spring during peak plant growth when growth conditions are good.",
+                remarks: "Use 16 oz/ac picloram only in the fall. Use 32oz/ac picloram in the spring. Poor control may be expected if dicamba:2,4-D (1:3) or dicamba:2,4-D mixture is used when growth conditions are less than ideal. Growth conditions should be optimum if picloram:2,4-D (1:4) or picloram:2,4-D mixture is used in the spring. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            }, 
+
+            {
+                herbicideName: "metsulfuron methyl",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "0.6oz"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4gal water for aerial spray; 10-25gal water for ground broadcast application. Add 32-64oz surfactant or 2gal crop oil/100gal water.",
+                timing: "Optimum time is in the fall, but may be applied in the spring.",
+                remarks: "Becasue of metsulfuron methyl in the formulation, there herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron:chlorosulfuron (3:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "0.75oz"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4gal water for aerial spray; 10-25gal water for ground broadcast application. Add 32-64oz surfactant or 2gal crop oil/100gal water.",
+                timing: "Optimum time is in the fall, but may be applied in the spring.",
+                remarks: "Becasue of metsulfuron methyl in the formulation, there herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron:chlorosulfuron (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "1.2oz"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4gal water for aerial spray; 10-25gal water for ground broadcast application. Add 32-64oz surfactant or 2gal crop oil/100gal water.",
+                timing: "Optimum time is in the fall, but may be applied in the spring.",
+                remarks: "Becasue of metsulfuron methyl in the formulation, there herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "H-VH",
+                        rate: "Rate 1-Rate 2"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4gal water for aerial spray; 10-25gal water for ground broadcast application. Add 32-64oz surfactant or 2gal crop oil/100gal water.",
+                timing: "Optimum time is in the fall, but may be applied in the spring.",
+                remarks: "Becasue of metsulfuron methyl in the formulation, there herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "tebuthiuron 20% pellets",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "3.75lb pellets (0.75lb active ingredient)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.57oz of pellets (0.033oz active ingredient)/100sq ft of ground area"
+                    }
+                },
+                sprayVolume: null,
+                timing: "Anytime - optimum period is Oct 1-Apr 1 except in Trans Pecos, where optimum period is May 1-Jul 1",
+                remarks: "Use only on sand, loamy sand, sandy loam, loam, silt loam, silt, or sandy clay loam soils."
+            }
+        ]
+    }, 
+
+    {
+        plantName: ["Bullnettle", "Carolina horsenettle", "dogfennel", "silverleaf nightshade", "upright prairie-coneflower", "western horsenettle (treadslave)", "yankeeweed (rosin weed)"],
+        herbicides: [
+            {
+                herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "20-32oz (0.6-0.9lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.63%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring (see remarks)",
+                remarks: "Spray bullnettle, Carolina horsenettle, silverleaf nightshade, and western horsenettle when plants begin to flower in the spring. Spray dogfennel and yankeeweed when plants are 8-10in. tall. Spray upright prairie-coneflower when plants are 2-6in. tall before flowering. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "32-48oz (0.6-0.94lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring (see remarks)",
+                remarks: "Spray bullnettle, Carolina horsenettle, silverleaf nightshade, and western horsenettle when plants begin to flower in the spring. Spray dogfennel and yankeeweed when plants are 8-10in. tall. Spray upright prairie-coneflower when plants are 2-6in. tall before flowering. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "8-12oz (0.125-0.1875lb) picloram + 16-24oz (0.5-0.75lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.25% picloram + 0.50% 2,4-D (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring (see remarks)",
+                remarks: "Spray bullnettle, Carolina horsenettle, silverleaf nightshade, and western horsenettle when plants begin to flower in the spring. Spray dogfennel and yankeeweed when plants are 8-10in. tall. Spray upright prairie-coneflower when plants are 2-6in. tall before flowering. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram:fluroxypyr (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "24-32oz (0.25-0.33lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring (see reamrks)",
+                remarks: "Spray bullnettle, Carolina horsenettle, silverleaf nightshade, and western horsenettle when plants begin to flower in the spring. Spray dogfennel and yankeeweed when plants are 8-10in. tall. Spray upright prairie-coneflower when plants are 2-6in. tall before flowering. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "H-VH",
+                        rate: "Rate 1-Rate 2"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring (see remarks)",
+                remarks: "Spray bullnettle, Carolina horsenettle, silverleaf nightshade, and western horsenettle when plants begin to flower in the spring. Spray dogfennel and yankeeweed when plants are 8-10in. tall. Spray upright prairie-coneflower when plants are 2-6in. tall before flowering. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "dicambe:2,4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "32oz (1lb"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring (see remarks)",
+                remarks: "Spray bullnettle, Carolina horsenettle, silverleaf nightshade, and western horsenettle when plants begin to flower in the spring. Spray dogfennel and yankeeweed when plants are 8-10in. tall. Spray upright prairie-coneflower when plants are 2-6in. tall before flowering. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "dicamba:2,4-D + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1.0lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring (see remarks)",
+                remarks: "Spray bullnettle, Carolina horsenettle, silverleaf nightshade, and western horsenettle when plants begin to flower in the spring. Spray dogfennel and yankeeweed when plants are 8-10in. tall. Spray upright prairie-coneflower when plants are 2-6in. tall before flowering. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "dicamba + 2,4-D amine of low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "8oz (0.25lb) dicamba + 24oz (0.75lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.25% dicamba + 0.75% 2,4-D (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring (see remarks)",
+                remarks: "Spray bullnettle, Carolina horsenettle, silverleaf nightshade, and western horsenettle when plants begin to flower in the spring. Spray dogfennel and yankeeweed when plants are 8-10in. tall. Spray upright prairie-coneflower when plants are 2-6in. tall before flowering. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "aminopyralid:metsulfuron methyl (1:6.2)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "2.0-3.3oz (0.078-0.127lb)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring (see remarks)",
+                remarks: "Spray bullnettle, silverleaf nightshade, and western horsenettle when plants begin to flower in the spring. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "aminopyralid:2,4-D (1:8)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "24oz (0.70lb)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring (see remarks)",
+                remarks: "Spray bullnettle, silverleaf nightshade, and western horsenettle when plants begin to flower in the spring. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            }
+        ]
+    }, 
+
+    {
+        plantName: ["Common goldenweed", "Drummond's goldenweed"],
+        herbicides: [
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
                         contolRating: "",
                         rate: ""
                     }, 
@@ -777,9 +1161,9 @@ const weedControl = [
                         rate: ""
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -794,9 +1178,9 @@ const weedControl = [
                         rate: ""
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -811,9 +1195,9 @@ const weedControl = [
                         rate: ""
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -828,9 +1212,9 @@ const weedControl = [
                         rate: ""
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -845,9 +1229,9 @@ const weedControl = [
                         rate: ""
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -862,9 +1246,9 @@ const weedControl = [
                         rate: ""
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -879,9 +1263,26 @@ const weedControl = [
                         rate: ""
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             }, 
 
             {
@@ -896,9 +1297,9 @@ const weedControl = [
                         rate: ""
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -913,342 +1314,9 @@ const weedControl = [
                         rate: ""
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }
-        ]
-    }, 
-
-    {
-        plantName: [],
-        herbicides: [
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }
-        ]
-    }, 
-
-    {
-        plantName: [],
-        herbicides: [
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             }
         ]
     }, 

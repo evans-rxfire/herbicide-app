@@ -1,3 +1,7 @@
+I need some kind of diclaimer on the page, regarding the informational purpose of the page and that errors may be present. 
+
+
+
 What needs to be displayed in the output for the *Brush Busters* page:
 - plant name
 - type of application
