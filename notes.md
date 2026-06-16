@@ -4,8 +4,12 @@ For refGuide.html form:
 - user selects weed or brush control
 - "Select a species" `<select>` element is generated with all of the species from the `weedControl` or `brushControl` arrays in `refGuide.js`.
     - Some objects in the arrays have multiple species names in `plantName`. Each plant name will need its own `option`. 
+    - Some plants have more than one entry in the arrays. Check for exact matches already present before adding plant name as an `option` element.
 - user selects a plant name from the list
 - a table is generated with the recommended herbicide(s), herbicide quantities, spray volumes, times, and remarks.
+    - not sure if a table it the best option, due to the varying amount of information for each plant/herbicide. 
+        - What other options are available?
+    - for plants with more than one entry, need to ensure that all instances of the plant name are in the output 
     - it would be nice for each herbicide name to link back to the `herbicideNames` array or display that information as a tooltip.
 
 
