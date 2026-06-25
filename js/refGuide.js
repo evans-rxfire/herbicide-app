@@ -4692,15 +4692,15 @@ const brushControl = [
         plantName: ["mesquite (suppression and weed control)"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "28-32oz (2-4lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M",
+                        rate: "2% (4lb/gal product)"
                     }
                 },
                 sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
@@ -4709,3361 +4709,952 @@ const brushControl = [
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "20-32oz (0.6-0.9lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring-mid Summer with mature (dark green) leaves. Optimum period begins when soil temperature at a depth of 12in. reaches 75°F and continues for 45 days thereafter. If treatment is applied before optimum soil temperatures, efficacy rates will be lower and multiple applications over a period of years may be necessary to maintain less than 10% canopy cover.",
+                remarks: "Treatments will control many weeds. Use of a treatment with a low control rating may result in multi-stem growth form that may be more difficult to control in the future. Picloram:2,4-D (1:4), (3.8lb/gallproduct): Do not apply more than 80oz/acre per year."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "32-48oz (0.6-0.9lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring-mid Summer with mature (dark green) leaves. Optimum period begins when soil temperature at a depth of 12in. reaches 75°F and continues for 45 days thereafter. If treatment is applied before optimum soil temperatures, efficacy rates will be lower and multiple applications over a period of years may be necessary to maintain less than 10% canopy cover.",
+                remarks: "Treatments will control many weeds. Use of a treatment with a low control rating may result in multi-stem growth form that may be more difficult to control in the future."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "32-48oz (1-1.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring-mid Summer with mature (dark green) leaves. Optimum period begins when soil temperature at a depth of 12in. reaches 75°F and continues for 45 days thereafter. If treatment is applied before optimum soil temperatures, efficacy rates will be lower and multiple applications over a period of years may be necessary to maintain less than 10% canopy cover.",
+                remarks: "Treatments will control many weeds. Use of a treatment with a low control rating may result in multi-stem growth form that may be more difficult to control in the future."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "Rate 1-Rate 2"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring-mid Summer with mature (dark green) leaves. Optimum period begins when soil temperature at a depth of 12in. reaches 75°F and continues for 45 days thereafter. If treatment is applied before optimum soil temperatures, efficacy rates will be lower and multiple applications over a period of years may be necessary to maintain less than 10% canopy cover.",
+                remarks: "Treatments will control many weeds. Use of a treatment with a low control rating may result in multi-stem growth form that may be more difficult to control in the future. Because of metsulfuron methyl in the formulation, these herbicides are not recommended for bahiagrass pastures for weed control."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "8-12oz (0.125-0.1875lb) picloram + 32-48oz (1-1.5lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring-mid Summer with mature (dark green) leaves. Optimum period begins when soil temperature at a depth of 12in. reaches 75°F and continues for 45 days thereafter. If treatment is applied before optimum soil temperatures, efficacy rates will be lower and multiple applications over a period of years may be necessary to maintain less than 10% canopy cover.",
+                remarks: "Treatments will control many weeds. Use of a treatment with a low control rating may result in multi-stem growth form that may be more difficult to control in the future."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "16-32oz (0.5-1lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring-mid Summer with mature (dark green) leaves. Optimum period begins when soil temperature at a depth of 12in. reaches 75°F and continues for 45 days thereafter. If treatment is applied before optimum soil temperatures, efficacy rates will be lower and multiple applications over a period of years may be necessary to maintain less than 10% canopy cover.",
+                remarks: "Treatments will control many weeds. Use of a treatment with a low control rating may result in multi-stem growth form that may be more difficult to control in the future."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "dicamba",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "16-32oz (0.5-1lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring-mid Summer with mature (dark green) leaves. Optimum period begins when soil temperature at a depth of 12in. reaches 75°F and continues for 45 days thereafter. If treatment is applied before optimum soil temperatures, efficacy rates will be lower and multiple applications over a period of years may be necessary to maintain less than 10% canopy cover.",
+                remarks: "Treatments will control many weeds. Use of a treatment with a low control rating may result in multi-stem growth form that may be more difficult to control in the future."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["mesquite, western honey"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "triclopyr ester + clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5% triclopyr ester + 0.5% clopyralid"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "The preferred application time is Spring to early Summer, 40-90 days after bud break. Spray with minimum soil temperature of 75°F at 12-18 inch soil depth. Soil moisture should be adequate for plant growth. Not all years provide adequate conditions for spraying. In certain early  season drought years with late summer rains, there is an opportunity for spraying in July and August. This occurs when summer rains provide sufficient soil moisture that allows mesquite foliage to recover from drought or other damage and develop healthy and robust leaf growth.",
+                remarks: "Western honey mesquite is most common in the western part of the Trans-Pecos region of Texas. Do not spray after major rain (usually at least 1 inch of rain) that causes light green leaves until all leaves have returned to uniform dark-green (approx. 2-3 weeks). Foliage should be robust, dark green, and undamaged. Do not spray foliage damaged by drought, frost, hail, wind, insects, and browsing."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "aminopyralid:clopyralid + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H-VH",
+                        rate: "28oz (0.61lb) aminopyralid:clopyralid + 8oz (0.25lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "The preferred application time is Spring to early Summer, 40-90 days after bud break. Spray with minimum soil temperature of 75°F at 12-18 inch soil depth. Soil moisture should be adequate for plant growth. Not all years provide adequate conditions for spraying. In certain early  season drought years with late summer rains, there is an opportunity for spraying in July and August. This occurs when summer rains provide sufficient soil moisture that allows mesquite foliage to recover from drought or other damage and develop healthy and robust leaf growth.",
+                remarks: "Western honey mesquite is most common in the western part of the Trans-Pecos region of Texas. Do not spray after major rain (usually at least 1 inch of rain) that causes light green leaves until all leaves have returned to uniform dark-green (approx. 2-3 weeks). Foliage should be robust, dark green, and undamaged. Do not spray foliage damaged by drought, frost, hail, wind, insects, and browsing."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "aminopyralid:clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M-H",
+                        rate: "28oz (0.61lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "The preferred application time is Spring to early Summer, 40-90 days after bud break. Spray with minimum soil temperature of 75°F at 12-18 inch soil depth. Soil moisture should be adequate for plant growth. Not all years provide adequate conditions for spraying. In certain early  season drought years with late summer rains, there is an opportunity for spraying in July and August. This occurs when summer rains provide sufficient soil moisture that allows mesquite foliage to recover from drought or other damage and develop healthy and robust leaf growth.",
+                remarks: "Suggested for ground broadcast"
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["mixed brush-South Texas"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "picloram + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M",
+                        rate: "32oz (0.5lb) picloram + 16oz (0.5lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "0.5% picloram + 0.5% triclopyr ester"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring throuhg mid-Summer with mature (dark green) leaves. Optimum period of application begins when soil temperature at a depth of 12in. reaches 75°F and continues for 45 days thereafter; with the clopyralid tank mix the period should continue for 60 days after soil temperature reaches 75°F. If mesquite has 10% canopy cover or less, application may be made in Spring or Fall.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram + clopyrlaid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M",
+                        rate: "32oz (0.5lb) picloram + 11-21oz (0.25-0.5lb) clopyralid"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "0.5% picloram + 0.5% clopyralid"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring throuhg mid-Summer with mature (dark green) leaves. Optimum period of application begins when soil temperature at a depth of 12in. reaches 75°F and continues for 45 days thereafter; with the clopyralid tank mix the period should continue for 60 days after soil temperature reaches 75°F. If mesquite has 10% canopy cover or less, application may be made in Spring or Fall.",
+                remarks: "The mixture of 32oz picloram + 21oz clopyralid or 32oz picloram + 28oz aminopyrlid:clopyralid will usually provide better results than the 32oz picloram + 11oz clopyralid mixture. Mixtures will control most weeds."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram + dicamba",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M",
+                        rate: "32oz (0.5lb) picloram + 16oz (0.5lb) dicamba"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "0.5% picloram + 0.5% dicamba"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring throuhg mid-Summer with mature (dark green) leaves. Optimum period of application begins when soil temperature at a depth of 12in. reaches 75°F and continues for 45 days thereafter; with the clopyralid tank mix the period should continue for 60 days after soil temperature reaches 75°F. If mesquite has 10% canopy cover or less, application may be made in Spring or Fall.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "aminopyralid:clopyralid + picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M",
+                        rate: "28o (0.61lb) aminopyralid:clopyralid + 16-32oz (0.25-0.5lb) picloram"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring throuhg mid-Summer with mature (dark green) leaves. Optimum period of application begins when soil temperature at a depth of 12in. reaches 75°F and continues for 45 days thereafter; with the clopyralid tank mix the period should continue for 60 days after soil temperature reaches 75°F. If mesquite has 10% canopy cover or less, application may be made in Spring or Fall.",
+                remarks: "The mixture of 32oz picloram + 21oz clopyralid or 32oz picloram + 28oz aminopyrlid:clopyralid will usually provide better results than the 32oz picloram + 11oz clopyralid mixture. Mixtures will control most weeds."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "aminopyralid:clopyralid + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M",
+                        rate: "28oz (0.61lb) aminopyralid:clopyralid + 8-32oz (0.25-0.75lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring throuhg mid-Summer with mature (dark green) leaves. Optimum period of application begins when soil temperature at a depth of 12in. reaches 75°F and continues for 45 days thereafter; with the clopyralid tank mix the period should continue for 60 days after soil temperature reaches 75°F. If mesquite has 10% canopy cover or less, application may be made in Spring or Fall.",
+                remarks: null
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["mixed brush-Davis Mountains"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M",
+                        rate: "7.5-10lb of pellets (1.5-2lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "0.5oz of pellets (0.1oz active ingredient)/50-100sqft of ground area"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Anytime - optimum period is May 1-Jul 1.",
+                remarks: "Use 10 lb pellets/ac when soil is a loam, silt loam, silt, sandy clay loam, or clay loam. Use low rate when soil is a sand, loamy sand, or sandy loam. For individual plant treatment apply pellets evenly on soil under the plant canopy and 1ft beyond the canopy edge."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["Mohrs shinoak"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "5lb of pellets (1lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5oz of pellets (0.1oz active ingredient)/100sqft of ground area"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Anytime - optimum period is Oct 1-Apr 1.",
+                remarks: "Use only when oak stand is predominantly Mohrs shinoak. These stands are generally found in Coke, Mitchell, Nolan, Sterling, and Taylor Counties. For individual plant treatment, apply pellets evenly on the soil under the plant canopy and 1ft beyond canopy edge."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["pricklypear", "tasajillo"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "aminopyralid:picloram:fluroyxpyr (1:2:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "32oz (0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Anytime—best results have been obtained with late Summer through Fall applications.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "16-32oz (0.25-0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Anytime—best results have been obtained with late Summer through Fall applications.",
+                remarks: "Use 1pt/ac picloram only on High Plains where no brush overstory is present. Late Summer or Fall applications, especially with fluroxypyr, will provide best results, but aerially spray in the Winter or early Spring if heavy overstory of woody plants is present or if damage to live oak is a concern."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram + fluroxypyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "64oz (0.67lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Anytime—best results have been obtained with late Summer through Fall applications.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "80oz (2.4lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1.3%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Anytime—best results have been obtained with late Summer through Fall applications.",
+                remarks: "Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "125oz (2.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "2%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Anytime—best results have been obtained with late Summer through Fall applications.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "triclopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Anytime—best results have been obtained with late Summer through Fall applications.",
+                remarks: null
             }, 
             {
-                herbicideName: "",
+                herbicideName: "fluroxypyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Anytime—best results have been obtained with late Summer through Fall applications.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "fluroxypyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Anytime—best results have been obtained with late Summer through Fall applications.",
+                remarks: null
+            }, 
+
+            {
+                herbicideName: "prescribed burn + picloram",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "8-16oz (0.125-0.25lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "For individual plant treatment, thoroughly wet all pads and crowns that survive the fire. Use a water carrier and add 32-64oz surfactant/100gal water.",
+                timing: "After burn, when new pads are 3in. tall. If new pads do not develop, spray by Apr 30.",
+                remarks: "Carry out prescribed burn Dec-Mar. Sufficient fine fuel with good fuel continuity should be present to provide a uniform burn with moderate to high intensity. Spray the burned area within 5 months of the burn but no later than Apr 30 (May 31 if new pads do not develop by Apr 30). Use 8oz picloram when the prescribed burn is sufficiently intense to brown-out most pricklypear pads with <10% of the pricklypear green 2 weeks after the burn. Use 16oz picloram following moderate-intensity burn with more than 10% of the pricklypear green 2 weeks after the burn. The prescribed burn + picloram treatment is not recommended for the Rio Grande Plains land resource area."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["retama"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "picloram + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L-M",
+                        rate: "32oz (0.5lb) picloram + 16oz (0.5lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "0.5% picloram + 0.5% triclopyr ester"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, with mature foliage or Fall with good soil moisture and foliage.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram + clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L-M",
+                        rate: "32oz (0.5lb) picloram + 11-21oz (0.25-0.5lb) clopyralid"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "0.5% picloram + 0.5% clopyralid"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, with mature foliage or Fall with good soil moisture and foliage.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L-M",
+                        rate: "96oz (1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, with mature foliage or Fall with good soil moisture and foliage.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L-M",
+                        rate: "32oz (0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, with mature foliage or Fall with good soil moisture and foliage.",
+                remarks: null
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["running live oak"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "5-10lb pellets (1-2lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5oz pellets (0.1oz active ingredient)/50-100sqft of ground area"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Anytime - optimum period is Oct 1-Apr 1.",
+                remarks: "Use low rate on brush 2-8 ft tall. Use 7.5lb pellets/ac when brush is 2-8ft tall on rolling or hummocking site and when live oak plants are 8ft or taller without understory species such as yaupon. Use 10lb pellets/ac when live oak plants are taller than 8ft and an understory of yaupon and other species is present. For individual plant treatment, apply pellets evenly on the soil under the plant canopy and 1ft beyond canopy edge."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["sacahuista"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "0.25oz pellets (0.05oz active ingredient"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Anytime - optimum period is Oct 1-Apr 1 except in Trans-Pecos where optimum period is May 1-Jul 1.",
+                remarks: "Apply pellets evenly on the soil under the plant canopy near the stem base."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["saltcedar"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "imazapyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "64oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Minimum 10gal/ac for aeiral or ground broadcast sprays. Throoughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Jul-Sep, or until leaves begin to turn yellow.",
+                remarks: "When exposure to aquatic environments is possible use aquatic labels of imazapyr and glyphosate. Imazapyr alone or in combination with glyphosate will cause damage to desirable plants if contacted by the spray mix."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "imazapyr + glyphosate",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "32oz (0.5lb) imazapyr + 16oz (0.5lb) glyphosate"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5% imazapyr + 0.5% glyphosate"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Minimum 10gal/ac for aeiral or ground broadcast sprays. Throoughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Jul-Sep, or until leaves begin to turn yellow.",
+                remarks: "When exposure to aquatic environments is possible use aquatic labels of imazapyr and glyphosate. Imazapyr alone or in combination with glyphosate will cause damage to desirable plants if contacted by the spray mix."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "25% in diesel fuel oil"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Apply to lower 12-18in. of trunk to wet the trunk; do not spray to point of runoff. Apply completely around the trunk.",
+                timing: "Growing season when trees have mature leaves.",
+                remarks: "This is a Brush Busters® low volume basal application method. Use a hollow cone nozzle with XI orifice."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["sand sagebrush"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "32oz (1lb) 4lb/gal product {up to 64oz (2lb) for ground broadcast}"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1% (4lb/gal product)"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "May 1-Jun 15 under good growth conditions with plants fully leafed.",
+                remarks: "Do not spray when plants are defoliated by late freeze, hail, or unfavorable growth conditions."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3) + 2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "Rate 1 metsulfuron methyl dicamba:2,4-D (1:3) + 16oz (0.5lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "May 1-Jun 15 under good growth conditions with plants fully leafed.",
+                remarks: "Do not spray when plants are defoliated by late freeze, hail, or unfavorable growth conditions. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["sand shinnery oak"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "3.75-5lb of pellets (0.75-1lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5oz of pellets (0.1oz active ingredient)/100sqft of ground area"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Anytime - optimum period is Oct 1-Apr 1 except in Trans-Pecos where optimum period is May 1-Jul 1.",
+                remarks: "Use 3.75 lb pellets/ac in southern High Plains and Rolling Plains. Use 5lb pellets/ac in eastern Panhandle north of Prairie Dog Town Fork of the Red River. For individual plant treatment, apply pellets evenly on the soil under the plant canopy and 1ft beyond canopy edge."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "tebuthiuron 80 DF",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H-VH",
+                        rate: "1.25lb (1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Apply by mixing with water and using ground equipment equipped with straight stream nozzles spaced 3-6ft apart delivering a total spray volume of 20-30gal/ac.",
+                timing: "Anytime - optimum period is Oct 1-Apr 1 except in Trans-Pecos where optimum period is May 1-Jul 1.",
+                remarks: "Use the closer spacing of nozzles when treating high densities of sand shinnery. Applications will result in damage to grass directly under each nozzle that can persist for 1-3yr. Agitation is important to dissolve and maintain tebuthiuron 80DF in solution during application."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["saw palmetto"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H-VH",
+                        rate: "Rate 2 or Rate 3 (see remarks)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For ground broadcast applications, the suggested total sprayvolume is 15-30gal/ac. Use water + surfactant, crop oil, or methylated seed oil.",
+                timing: "Mid-late Summer (August)",
+                remarks: "Rate 2 applications generally result in “high” control levels the first year after treatment, improving to “very high” by the second year after treatment. Rate 3 applications can be expected to produce “very high” control levels by the first year after treatment. Do not mow treated areas for at least 1 year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["Texas persimmon"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "aminocyclopyrachlor:triclopyr amine (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "2%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Throughly spray foliage to wet but not dripping. Add 32-64oz (0.25-0.5%) nonionic surfactant/100gal water.",
+                timing: "Late Spring through Summer with mature (dark green), healthy leaves. Applications before July 1 have been the most effective and consistent.",
+                remarks: "Aminocyclopyrachlor:triclopyr amine requires specific picolinic acid chemistry training and certification before use. See label for additional site-use information and restrictions."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["whitebrush (beebrush, beebush)"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "5-735lb of pellets (1-1.5lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5oz of pellets (0.1oz active ingredient)/50-100sqft of ground area"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Anytime - optimum period is Oct 1-Apr 1 except in Trans-Pecos, where optimum period is May 1-Jul 1.",
+                remarks: "Use 5lb pellets/ac on sand, loamy sand, or sandy loam soils. Use 6.25lb pellets/ac on soils with 20 to 30 percent clay. Use 7.5lb pellets/ac on areas with grass production >1,500lb/ac or on areas where mesquite, Texas persimmon, or other woody plants have a canopy cover of 20% or more with whitebrush that is 6ft tall or taller. For individual plant treatment apply pellets evenly on the soil under the plant canopy and 1ft beyond canopy edge."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["yaupon"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "aminocyclopyrachlor:triclopyr amine (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H-VH",
+                        rate: "1.5%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Thoroughly spray foliage to wet but not dripping. Add 32-64oz (0.25-0.5%) nonionic surfactant/100gal water.",
+                timing: "Late Spring through Summer with mature (dark green) and healthy leaves.",
+                remarks: "Aminocyclopyrachlor:triclopyr amine requires specific picolinic acid chemistry training and certification before use. See label for additional site-use information and restrictions."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["yucca (species)"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "aminocyclopyrachlor:triclopyr amine (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H-VH",
+                        rate: "1.5%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Thoroughly wet the center whorl of each individual yucca. Add 32-64oz (0.25-0.5%) nonionic surfactant/100gal water.",
+                timing: "Late Spring through Summer with mature, healthy leaves.",
+                remarks: "Aminocyclopyrachlor:triclopyr amine requires specific picolinic acid chemistry training and certification before use. See label for additional site-use information and restrictions."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "2% in diesel fuel oil"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Spray the center of each individual whorl of leaves to the point of runoff.",
+                timing: "Anytime",
+                remarks: "Complete coverage of leaves is not necessary. The crown of each plant must be thoroughly wet with the herbicide mixture."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "2% in 1:5 diesel fuel oil:water emulsion"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Spray the center of each individual whorl of leaves to the point of runoff.",
+                timing: "May-Sep",
+                remarks: "Use emulsifier and agitate to maintain emulsion. Complete coverage of leaves is not necessary. The crown of each plant must be thoroughly wet with the herbicide mixture."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "15% in diesel fuel oil"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Use an adjustable cone nozzle (X1 orifice) and spray a 2-second burst into each whorl",
+                timing: "Spring-Summer",
+                remarks: "Direct spray into the center of each whorl."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "Undiluted, 2-4ml per plant whorl"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Use an exact delivery handgun set at 2 or 4ml/whorl dose.",
+                timing: "Spring-Summer",
+                remarks: "Direct spray into the center of each whorl."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "undiluted"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Use an adjustable cone nozzle (x1 orifice) and spray a 2-second burst into wach whorl",
+                timing: "Spring-Summer",
+                remarks: "Direct spray into the center of each whorl."
             }, 
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3) + 2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "Rate 2 metsulfuron methyl dicamba:2,4-D (1:3) + 16-24oz 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Crop oil concentrate, modified seed oil, or modified seed oil/organosilicone are the preferred adjuvants. For aerial applications, a minimum of 4gal/ac total spray volume is recommended.",
+                timing: "Spring-Fall before frost",
+                remarks: "A second follow-up application of metsulfuron methyl dicamba:2,4-D (1:3) at Rate 1 or Rate 2 + 2,4-D low volatile ester at 0.5-0.75lb/ac within 2yr of the initial application may be required to control yucca seedlings and regrowth from rootstocks. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron:chlorosulfuron (3:1) + 2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "0.675oz metsulfuron:chlorosulfuron (3:1) + 32oz 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Crop oil concentrate, modified seed oil, or modified seed oil/organosilicone are the preferred adjuvants. For aerial applications, a minimum of 4gal/ac total spray volume is recommended.",
+                timing: "Spring-Fall before frost",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             } 
         ]
-    }, 
-
-    {
-        plantName: [],
-        herbicides: [
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            } 
-        ]
-    }, 
-
-    {
-        plantName: [],
-        herbicides: [
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            } 
-        ]
-    }, 
-
-    {
-        plantName: [],
-        herbicides: [
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            } 
-        ]
-    }, 
-
-    {
-        plantName: [],
-        herbicides: [
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            } 
-        ]
-    }, 
-
-    {
-        plantName: [],
-        herbicides: [
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            } 
-        ]
-    }, 
-
-    {
-        plantName: [],
-        herbicides: [
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            } 
-        ]
-    }, 
-
-    {
-        plantName: [],
-        herbicides: [
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            } 
-        ]
-    }, 
+    } 
 ];
+
+
 
