@@ -93,6 +93,51 @@ function findMatchingEntries(controlArray, selectedPlant) {
 // console.log(findMatchingEntries(weedControl, "ragweed"));
 
 
+// Render the herbicide recommendations to the HTML
+function renderRecommendations(recommendationGroups) {
+    clearRecommendations();
+
+    recommendationGroups.forEach(group => {
+        console.log(group.plantName);
+        const section = renderRecommendationSection(group);
+        recommendationsContainer.appendChild(section);
+    });
+}
+
+
+function renderRecommendationSection(group) {
+    const section = document.createElement("section");
+    section.className = "border border-stone-500 rounded-lg p-4 mb-6 bg-stone-200 dark:bg-stone-800 shadow-sm";
+
+    const heading = document.createElement("h3");
+    heading.textContent = "Applies to:";
+    heading.className = "text-lg font-semibold border-b border-stone-400 dark:border-stone600 pb-2 mb-3";
+
+    const targetList = document.createElement("ul");
+    targetList.className = "list-disc list-inside text-sm mb-6";
+
+    group.plantName.forEach(name => {
+        const listItem = document.createElement("li");
+        listItem.textContent = name;
+        targetList.appendChild(listItem);
+    });
+
+    const cardContainer = document.createElement("div");
+    cardContainer.className = "space-y-4 pt-4 border-stone-300 dark:border-stone-700";
+
+    section.appendChild(heading);
+    section.appendChild(targetList);
+    section.appendChild(cardContainer);
+
+    return section;
+}
+
+
+function renderHerbicideCard(herbicide) {
+
+}
+
+
 // Event listeners
 controlTypeSelect.addEventListener("change", () => {
     if (!controlTypeSelect.value) return;
@@ -132,5 +177,9 @@ getRecommendationBtn.addEventListener("click", (e) => {
         controlArray, 
         plantNameSelect.value
     );
+
+    // console.log(recommedationGroups);
+
+    renderRecommendations(recommedationGroups);
 });
 
