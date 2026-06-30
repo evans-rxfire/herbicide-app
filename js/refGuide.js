@@ -133,6 +133,8 @@ function renderRecommendations(recommendationGroups) {
         const section = renderRecommendationSection(group);
         recommendationsContainer.appendChild(section);
     });
+
+    recommendationsContainer.appendChild(renderNotes());
 }
 
 
@@ -162,9 +164,7 @@ function renderRecommendationSection(group) {
         cardContainer.appendChild(card);
     });
 
-    section.appendChild(heading);
-    section.appendChild(targetList);
-    section.appendChild(cardContainer);
+    section.append(heading, targetList, cardContainer);
 
     return section;
 }
@@ -196,56 +196,61 @@ function renderHerbicideCard(herbicide) {
 
     const title = document.createElement("h4");
     title.textContent = herbicideName;
-    title.className = "font-semibold text-stone-900 dark:text-stone-100 mb-3";
+    title.className = "font-semibold text-lg text-blue-600 dark:text-lime-600 mb-3";
 
-    const body = document.createElement("div");
-    body.className = "grid grid-cols-2 gap-3 text-sm";
+    const applicationMethods = document.createElement("div");
+    applicationMethods.className = "grid grid-cols-2 gap-3 text-sm";
 
     const broadcastEl = document.createElement("div");
     broadcastEl.innerHTML = `
-        <p class="font-medium">Broadcast</p>
-        <p> Rating: ${broadcastRating}</p>
-        <p>Rate: ${broadcastRate}</p>
+        <p class="font-semibold text-base">Broadcast</p>
+        <p><span class="font-semibold">Rating:</span> ${broadcastRating}</p>
+        <p><span class="font-semibold">Rate:</span> ${broadcastRate}</p>
     `;
 
     const iptEl = document.createElement("div");
     iptEl.innerHTML = `
-        <p class="font-medium">IPT</p>
-        <p>Rating: ${iptRating}</p>
-        <p>Rate: ${iptRate}</p>
+        <p class="font-semibold text-base">IPT</p>
+        <p><span class="font-semibold">Rating:</span> ${iptRating}</p>
+        <p><span class="font-semibold">Rate:</span> ${iptRate}</p>
     `;
 
     const meta = document.createElement("div");
-    meta.className = "mt-3 text-sm space-y-1";
+    meta.className = 
+        "mt-4 pt-3 border-t border-stone-300 dark:border-stone-600 text-sm space-y-2";
 
     const volumeEl = document.createElement("p");
-    volumeEl.textContent = `Spray Volume: ${volume}`;
+    volumeEl.innerHTML = `
+        <span class="font-semibold">Spray Volume:</span>
+         ${volume}`;
 
     const timingEl = document.createElement("p");
-    timingEl.textContent = `Timing: ${applyTiming}`;
+    timingEl.innerHTML = `
+        <span class="font-semibold">Timing:</span>
+         ${applyTiming}`;
 
-    meta.appendChild(volumeEl);
-    meta.appendChild(timingEl);
+    meta.append(volumeEl, timingEl);
 
     let remarksEl = null;
+    let remarksHead = null;
 
     if (remarks) {
+        remarksHead = document.createElement("p");
+        remarksHead.className = "font-semibold text-sm mt-3";
+        remarksHead.textContent = "Remarks";
+
         remarksEl = document.createElement("p");
         remarksEl.className = 
-            "mt-3 text-xs italic text-stine-700 dark:text-stone-300";
+            "text-xs italic text-stone-700 dark:text-stone-300";
         remarksEl.textContent = remarks;
     }
 
-    card.appendChild(title);
-    card.appendChild(body);
+    applicationMethods.append(broadcastEl, iptEl);
 
-    body.appendChild(broadcastEl);
-    body.appendChild(iptEl);
-
-    card.appendChild(meta);
+    card.append(title, applicationMethods, meta);
 
     if (remarksEl) {
-        card.appendChild(remarksEl);
+        card.append(remarksHead, remarksEl);
     }
 
     return card;
@@ -253,7 +258,49 @@ function renderHerbicideCard(herbicide) {
 
 
 function renderNotes() {
-    
+    const notes = document.createElement("section");
+    notes.className = "border border-stone-500 rounded-lg p-4 mt-6 bg-stone-100 dark:bg-stone-800 shadow-sm";
+
+    const notesHead = document.createElement("h4");
+    notesHead.className = "text-lg font-semibold mb-3";
+    notesHead.textContent = "Reference Notes";
+
+    const notesList = document.createElement("ul");
+    notesList.className = "list-disc list-inside space-y-3 text-sm";
+
+    const controlRatingListItem = document.createElement("li");
+    controlRatingListItem.className = "";
+
+    const controlRatingListHead = document.createElement("strong");
+    controlRatingListHead.className = "font-semibold";
+    controlRatingListHead.textContent = "Control ratings:";
+
+    const ratingValueList = document.createElement("ul");
+    ratingValueList.className = "list-disc list-inside ml-4 space-y-1 text-sm";
+
+    controlRating.forEach(entry => {
+        const ratingValue = document.createElement("li");
+        ratingValue.textContent = `${entry.abbr} - ${entry.rating} (${entry.percentPlantsKilled}% control)`;
+        ratingValueList.appendChild(ratingValue);
+    });
+
+    controlRatingListItem.append(controlRatingListHead, ratingValueList);
+
+    const activeIngredientListItem = document.createElement("li");
+    activeIngredientListItem.className = "leading-relaxed";
+    activeIngredientListItem.textContent = 
+        "Application rates shown in parentheses are the active ingredient (a.i.) rates when provided by the reference.";
+
+    const labelDirectionsListItem = document.createElement("li");
+    labelDirectionsListItem.className = "font-semibold leading-relaxed"
+    labelDirectionsListItem.textContent = 
+        "Always read and follow the herbicide label. This guide summarizes reocmmendations and does not replace label directions.";
+
+    notesList.append(controlRatingListItem, activeIngredientListItem, labelDirectionsListItem);
+
+    notes.append(notesHead, notesList);
+
+    return notes;
 }
 
 
