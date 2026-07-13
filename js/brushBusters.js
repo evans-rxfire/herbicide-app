@@ -76,7 +76,7 @@ function renderRecommendations() {
 
 // Event listeners
 plantSelect.addEventListener("change", () => {
-    const selected = plantSelect.value;
+/*    const selected = plantSelect.value;
     const groupKey = groupMap[selected];
     const options = optionGroups[groupKey] || [];
 
@@ -87,7 +87,7 @@ plantSelect.addEventListener("change", () => {
         opt.value = type;
         opt.textContent = type;
         applicationTypeSelect.appendChild(opt);
-    });
+    }); */
 });
 
 
